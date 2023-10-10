@@ -2,11 +2,10 @@
   <v-app>
     <v-container class="my-auto">
       <slot name="navigation">
-        <NavigationBreadcrumb />
-        <v-breadcrumbs />
+        <SBreadcrumb />
       </slot>
       <h1>
-        <slot name="title"> Home default title </slot>
+        <slot name="title">Home default title </slot>
       </h1>
 
       <v-card variant="outlined">
